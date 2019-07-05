@@ -1,6 +1,6 @@
 /* Blocks layout */
 body {
-  font-family: Overpass+Mono;
+  font-family: Nunito Sans;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -62,10 +62,10 @@ label {
 
 h1 {
   margin: 0 auto;
-  font-shize: 82px;
+  font-size: 82px;
   line-height: 92px;
   font-weight: 300;
-  font-family: Libre Baskervile; }
+  font-family: Nunito; }
 
 h1, h2 {
   -webkit-margin-before: 0;
@@ -916,7 +916,7 @@ b, strong {
   background: #ffffff; }
   .content_40 #copy_from_me {
     background: #ecf0f1;
-    font-family: Overpass+Mono; }
+    font-family: Courier New; }
     .content_40 #copy_from_me .overflow {
       overflow: auto; }
 
@@ -1608,7 +1608,7 @@ b, strong {
 
 /* Team 3 */
 .team_3 {
-  background: #ffffff; }
+  background: #000000; }
   .team_3 .block:hover {
     opacity: 0.8; }
 

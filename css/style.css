@@ -4,13 +4,33 @@
 @import url(../css/slick.css);
 @import url(../css/slick-theme.css);
 @import url(../css/framework.css);
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
-@import url('https://fonts.googleapis.com/css?family=Overpass');
+@import url(../css/font/SouvenirStd-Bold.otf);
+@import url(../css/font/SouvenirStd-BoldItalic.otf);
+@import url(../css/font/SouvenirStd-Light.otf);
+@import url(../css/font/SouvenirStd-LightItalic.otf);
+@import url(../css/font/AvenirLTStd-Roman.otf);
+@import url(../css/font/AvenirLTStd-Bold.otf);
+
+
+@font-face {
+  font-family: Souvenir;
+  src: url(../css/font/SouvenirStd-Light.otf);
+}
+
+@font-face {
+  font-family: SouvenirBold;
+  src: url(../css/font/SouvenirStd-Bold.otf);
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../css/font/AvenirLTStd-Bold.otr);
+}
+
 
 /* Blocks layout */
 body {
-  font-family: Libre Baskerville;
+  font-family: Souvenir;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -43,22 +63,23 @@ nav.transparent {
 }
 
 a {
-  color: #DFCFBE;
-  cursor: pointer;
+  color: #E3373B;
+  cursor: crosshair;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #45B8AC;
+  color: #E3373B;
   text-decoration: none;
 }
 
 a:focus {
-  color: #45B8AC;
+  color: #4a6580;
   text-decoration: none;
   outline: none;
+    
 }
 
 button {
@@ -92,7 +113,7 @@ h1 {
   font-size: 82px;
   line-height: 92px;
   font-weight: 300;
-  font-family: Overpass Mono;
+  font-family: Nunito;
 }
 
 h1, h2 {
@@ -1477,7 +1498,7 @@ b, strong {
 }
 
 .feature_48 article h1, .feature_48 article h2, .feature_48 article h3, .feature_48 article h4, .feature_48 article h5, .feature_48 article h6 {
-  font-family: Playfair Display;
+  font-family: Nunito;
   font-weight: 300;
 }
 
@@ -1556,7 +1577,7 @@ b, strong {
 .feature_49 .main h2, .feature_49 .main h3, .feature_49 .main h4, .feature_49 .main h5, .feature_49 .main h6 {
   margin-top: 40px;
   font-weight: 300;
-  font-family: Playfair Display;
+  font-family: Nunito;
 }
 
 .feature_49 .main h2 {
@@ -2654,7 +2675,7 @@ b, strong {
 /* Showcase 8 */
 .showcase_8 .block {
   width: 33.3%;
-  width: calc(100% / 4);
+  width: calc(100% / 3);
 }
 
 .showcase_8 .block a:hover {
